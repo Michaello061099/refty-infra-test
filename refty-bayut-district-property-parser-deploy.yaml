@@ -22,7 +22,7 @@ spec:
       serviceAccountName: refty-dev-new
       containers:
         - name: refrefty-bayut-district-property-parser
-          image: ghcr.io/refty-yapi/refty-node/refty-node:08-06-42a252
+          image: ghcr.io/refty-yapi/refty-node/refty-node:05-06-42a25208-06-42a252
           command:
             - node
             - dist/bayutDistrictParserJobsWorker.js
